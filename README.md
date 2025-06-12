@@ -14,14 +14,14 @@ This project fine-tunes `TinyLlama-1.1B-Chat-v1.0` using a medical dataset (`Fre
 
 ## 📂 Structure
 
-- `Train__TinyLlama-1.1B-Chat-v1.0.py`: Full training script
+- `Train_TinyLlama-1.1B-Chat-v1.0.py`: Full training script
 - `tinyllama-medqa-lora/`: LoRA model output (adapter, tokenizer)
 - `results/`: Training logs (optional)
 
 ## 🚀 Run
 
 ```bash
-python Train__TinyLlama-1.1B-Chat-v1.0.py
+python Train_TinyLlama-1.1B-Chat-v1.0.py
 
 ##📄 TEST
 input_text = "### Instruction:\nExplain symptoms of anemia\n\n### Response:\n"
@@ -38,3 +38,9 @@ Anemia is a condition where the body does not have enough red blood cells to car
 
 Symptoms of anemia can vary depending on the cause, but they typically include fatigue, weakness, shortness of breath, and a decre
 
+## License
+
+This project is licensed under the Apache License 2.0.  
+The original model [TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)  
+and dataset [medical-o1-reasoning-SFT](https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT)  
+are also licensed under Apache-2.0.
